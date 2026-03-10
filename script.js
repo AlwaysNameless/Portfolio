@@ -8,32 +8,32 @@ const platforms = [
   {
     name: "Github",
     url: "https://github.com/AlwaysNameless",
-    color: "#1a1a1a",
+    color: "rgba(26, 26, 26, .9)",
     icon: "fa-brands fa-github",
   },
   {
     name: "Discord",
     url: "https://discord.com/users/758340064328941629",
-    color: "#5865F2",
+    color: "rgba(88, 101, 242, .9)",
     icon: "fa-brands fa-discord",
   },
   {
     name: "Twitter",
     url: "https://x.com/PassiveNameless",
-    color: "#000000",
+    color: "rgba(0, 0, 0, .9)",
     icon: "fa-brands fa-x-twitter",
   },
 
   {
     name: "Tiktok",
     url: "https://www.tiktok.com/@passivenameless",
-    color: "#fe2858",
+    color: "rgba(254, 40, 88, .9)",
     icon: "fa-brands fa-tiktok",
   },
   {
     name: "Reddit",
     url: "https://www.reddit.com/user/PassiveNamelesss/",
-    color: "#FF4500",
+    color: "rgba(255, 69, 0, .9)",
     icon: "fa-brands fa-reddit-alien",
   },
 ];
