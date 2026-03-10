@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+        />
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <button id="mute-button">
+            <i class="fa-solid fa-volume-xmark"></i>
+        </button>
+        <audio
+            class="background-audio"
+            autoplay
+            loop
+            src="Assets/No-more.mp3"
+        ></audio>
+        <video
+            class="background-vid"
+            autoplay
+            loop
+            muted
+            src="Assets/Cairo-Night.mp4"
+        ></video>
+        <div class="profile-section">
+            <div class="profile-text">
+                <img
+                    class="profile-photo"
+                    src="Images/osaka.png"
+                    alt="Sata andagi"
+                />
+                <div class="profile-info">
+                    <h4>Nameless</h4>
+                    <p>
+                        Hello I'm nameless I'm a solo Developer who likes to
+                        work in
+                        <br />
+                        JS CSS HTML and is learning java (for minecraft modding)
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div id="card-grids"></div>
+        <script src="script.js"></script>
+    </body>
+</html>
