@@ -3,6 +3,7 @@ const button = document.getElementById("mute-button");
 const audio = document.querySelector(".background-audio");
 const icon = button.querySelector("i");
 console.log(container);
+
 const platforms = [
   {
     name: "Github",
@@ -39,6 +40,7 @@ button.addEventListener("click", function () {
   if (audio.paused) {
     audio.play();
     icon.className = "fa-solid fa-volume-high";
+    audio.volume = 0.3;
   } else {
     audio.pause();
     icon.className = "fa-solid fa-volume-xmark";
