@@ -6,6 +6,13 @@ console.log(container);
 
 const platforms = [
   {
+    // {
+    //   name: "MEDIA-LINK",
+    //   url: "URL-LINK",
+    //   color: "COLOR-CODE-HTML",
+    //   icon: "FONTS-AWESOME",
+    // },
+
     name: "Github",
     url: "https://github.com/AlwaysNameless",
     color: "#1a1a1a",
