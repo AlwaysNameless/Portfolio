@@ -6,13 +6,6 @@ console.log(container);
 
 const platforms = [
   {
-    // {
-    //   name: "MEDIA-LINK",
-    //   url: "URL-LINK",
-    //   color: "COLOR-CODE-HTML",
-    //   icon: "FONTS-AWESOME",
-    // },
-
     name: "Github",
     url: "https://github.com/AlwaysNameless",
     color: "#1a1a1a",
@@ -25,10 +18,23 @@ const platforms = [
     icon: "fa-brands fa-discord",
   },
   {
+    name: "Twitter",
+    url: "https://x.com/PassiveNameless",
+    color: "#000000",
+    icon: "fa-brands fa-x-twitter",
+  },
+
+  {
     name: "Tiktok",
     url: "https://www.tiktok.com/@passivenameless",
     color: "#fe2858",
     icon: "fa-brands fa-tiktok",
+  },
+  {
+    name: "Reddit",
+    url: "https://www.reddit.com/user/PassiveNamelesss/",
+    color: "#FF4500",
+    icon: "fa-brands fa-reddit-alien",
   },
 ];
 
