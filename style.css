@@ -31,12 +31,13 @@ body {
     padding: 16px;
     border-radius: 12px;
     border: 3px solid rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(10px);
     gap: 16px;
 }
-
+/*Profile text*/
 .profile-info h4 {
     color: white;
-    font-family: "Courier New", Courier, monospace;
+    font-family: "Cinzel", serif;
     font-size: 20px;
     font-weight: bold;
     -webkit-text-stroke: 0.01px black;
@@ -44,7 +45,7 @@ body {
 
 .profile-info p {
     color: white;
-    font-family: "Courier New", Courier, monospace;
+    font-family: "Cinzel", serif;
 }
 
 /*background vid*/
@@ -64,7 +65,7 @@ body {
     margin-top: -100px;
     gap: 16px;
     justify-content: center;
-    background-color: rgba(inherit, inherit, inherit, 0.3);
+    backdrop-filter: blur(4px);
 }
 
 /*idk remember the hyperlinks i think fuck*/
@@ -76,7 +77,7 @@ body {
     text-decoration: none;
     text-align: center;
     color: white;
-    font-family: "Courier New", Courier, monospace;
+    font-family: "Cinzel", serif;
 }
 
 #mute-button {
