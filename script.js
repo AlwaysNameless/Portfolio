@@ -53,7 +53,7 @@ button.addEventListener("click", function () {
   if (audio.paused) {
     audio.play();
     icon.className = "fa-solid fa-volume-high";
-    audio.volume = 0.3;
+    audio.volume = 0.1;
   } else {
     audio.pause();
     icon.className = "fa-solid fa-volume-xmark";
