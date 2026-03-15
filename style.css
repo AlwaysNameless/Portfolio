@@ -93,3 +93,9 @@ body {
     border-radius: 6px;
     color: white;
 }
+
+@media (max-width: 600px) {
+    #card-grids {
+        flex-direction: column;
+    }
+}
